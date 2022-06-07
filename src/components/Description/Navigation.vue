@@ -1,5 +1,5 @@
 <template>
-    <div class="p-6 text-primary">
+    <div class="text-primary border">
         <div class="mx-4 py-5 cursor-pointer">
             <h2 class="font-bold text-lg cursor-pointer pb-1 transition ease-in-out duration-150" @click="activate(0)"
                 :class="{ active: active_el == 0 }">
