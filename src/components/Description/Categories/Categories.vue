@@ -1,9 +1,9 @@
 <template>
     <div>
-        <div class="py-4">
-            <h2 class="font-bold text-lg">Categories</h2>
+        <div class="pt-16 pb-5">
+            <h2 class="font-bold text-xl text-Gray-black">Categories</h2>
         </div>
-        <div class="grid grid-cols-5 py-3 gap-6">
+        <div class="grid grid-cols-6 gap-5">
             <CategoriesBox />
             <CategoriesBox />
             <CategoriesBox />

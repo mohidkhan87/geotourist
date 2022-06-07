@@ -1,28 +1,28 @@
 <template>
-    <div class="w-64 ml-9">
-        <div class="py-4">
-            <h2 class="font-bold text-lg">Check List</h2>
+    <div class="px-5 py-4 border rounded-lg shadow-md">
+        <div>
+            <h2 class="text-Gray-black font-bold text-xl">Check List</h2>
         </div>
         <div>
             <CheckListBox name="Name" />
             <CheckListBox name="Description" />
             <CheckListBox name="Cover Photo" />
             <CheckListBox name="Atleast 1 Photo" />
-            <div class="my-2">
-                <p>Narration</p>
+            <div class=" mt-4">
+                <p class="text-Gray-black text-base font-medium opacity-70">Narration</p>
             </div>
-            <div class="my-2">
-                <p>Media</p>
+            <div class=" mt-4">
+                <p class="text-Gray-black text-base font-medium opacity-70">Media</p>
             </div>
             <div class="flex flex-col ">
-                <div class="my-2">
+                <div class="mt-6">
                     <button
-                        class="text-primary  w-full font-semibold border-solid border-4 border-primary py-2 px-6 rounded-3xl hover:border-secondary hover:text-white hover:bg-secondary"><a>+
-                            Add...</a></button>
+                        class="text-secondary   w-full  box-border border-2 border-sky-blue py-2 px-12 rounded-3xl text-lg"><a>Preview</a></button>
                 </div>
-                <button
-                    class="my-2 px-3 py-2 font-semibold bg-secondary text-white rounded-3xl hover:bg-white hover:text-primary border-solid border-4 border-secondary hover:border-primary"><a>Download</a>
-                </button>
+                <div class="mt-2">
+                    <button class="text-white bg-secondary w-full  py-2 px-12 rounded-3xl text-lg"><a>Publish</a>
+                    </button>
+                </div>
             </div>
         </div>
     </div>

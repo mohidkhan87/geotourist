@@ -1,21 +1,20 @@
 <template>
     <div>
-        <div class="pb-4">
-            <h2 class="font-bold text-lg">Tags</h2>
+        <div>
+            <h2 class="text-Gray-black font-bold text-xl">Tags</h2>
         </div>
-        <div class="flex gap-2">
+        <div class="flex gap-3 pt-6 pb-">
             <div>
-                <button
-                    class="text-primary font-semibold border-solid border-2 border-primary py-1 px-3 rounded-3xl hover:border-secondary hover:text-white hover:bg-secondary"><a>+</a></button>
+                <button class="border-sky-blue hover:text-white hover:bg-secondary hover:border-secondary py-1 px-2.5 opacity-70 border-2   rounded-full"><a>+</a></button>
             </div>
             <div>
                 <button
-                    class="text-primary font-semibold border-solid border-2 border-primary py-1 px-6 rounded-3xl hover:border-secondary hover:text-white hover:bg-secondary">Paris
+                    class="border-sky-blue text-base text-Gray-black hover:text-white hover:bg-secondary hover:border-secondary py-1 px-3 rounded-3xl opacity-70 border-2">Paris
                     x</button>
             </div>
             <div>
                 <button
-                    class="text-primary font-semibold border-solid border-2 border-primary py-1 px-6 rounded-3xl hover:border-secondary hover:text-white hover:bg-secondary">Munich
+                    class="border-sky-blue text-base text-Gray-black  hover:text-white hover:border-secondary hover:bg-secondary py-1 px-3 rounded-3xl opacity-70 border-2 ">Munich
                     x</button>
             </div>
         </div>

@@ -1,31 +1,31 @@
 <template>
-    <div class="w-5/12">
-        <div class="flex justify-between mx-4 my-4">
-            <div class="flex items-center">
-                <p class="px-2 p-3 text-primary active:text-secondary transition ease-in-out duration-150 cursor-pointer"
+    <div>
+        <div class="flex justify-between mt-6 mb-8">
+            <div class="flex items-center gap-3">
+                <p class="text-Gray-black text-sm pb-3  active:text-secondary transition ease-in-out duration-150 cursor-pointer"
                     @click="activate(0)" :class="{ active: active_el == 0 }">English</p>
-                <p class="px-2 p-3 text-primary active:text-secondary transition ease-in-out duration-150 cursor-pointer"
+                <p class="text-Gray-black text-sm  pb-3  active:text-secondary transition ease-in-out duration-150 cursor-pointer"
                     @click="activate(1)" :class="{ active: active_el == 1 }">French</p>
-                <p class="px-2 p-3 text-primary active:text-secondary transition ease-in-out duration-150 cursor-pointer"
+                <p class="text-Gray-black text-sm pb-3   active:text-secondary transition ease-in-out duration-150 cursor-pointer"
                     @click="activate(2)" :class="{ active: active_el == 2 }">Deutch</p>
-                <p class="px-2 p-3 text-primary active:text-secondary transition ease-in-out duration-150 cursor-pointer"
+                <p class="text-Gray-black text-sm  pb-3  active:text-secondary transition ease-in-out duration-150 cursor-pointer"
                     @click="activate(3)" :class="{ active: active_el == 3 }">Spanish</p>
             </div>
             <div>
                 <button
-                    class="text-primary font-semibold border-solid border-4 border-primary py-2 px-6 rounded-3xl hover:border-secondary hover:text-white hover:bg-secondary"><a>+
+                    class="text-Gray-light hover:text-white border-sky-blue hover:border-secondary hover:bg-secondary border-solid border-2  py-2 px-6 text-sm rounded-3xl "><a>+
                         Add...</a></button>
             </div>
         </div>
-        <div>
-            <img src="@/assets/css/Description/landscape.jpg" class="w-full h-72 rounded-xl heroImg" alt="" />
+        <div class="mb-10">
+            <img src="@/assets/css/Description/landscape.jpg" class="w-full h-56 rounded-xl" alt="" />
         </div>
-        <div class="my-8">
-            <h1 class="text-3xl font-bold">
+        <div>
+            <h1 class="text-d-hero text-4xl  font-bold mb-9">
                 A walking trail of Montmartre, Paris
             </h1>
         </div>
-        <div class="my-8">
+        <div class="text-primary text-lg leading-8 mb-4">
             <p>Dominated by the grandeur of the ever-visible Sacré-Cœur Basilica, the leafy hilltop village of
                 Montmartre was once the play area of Paris’s most famous artists, bohemians and creatures of the night.
                 These days, the winding cobbled streets host chic cafes, retro boutiques and fine French dining but, if
@@ -60,7 +60,7 @@ export default {
 </script>
 <style>
 .active {
-    border-bottom: 4px solid #2DAEE1;
+    border-bottom: 1px solid #2DAEE1;
     color: #2DAEE1;
 
 }
